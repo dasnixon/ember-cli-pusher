@@ -3,6 +3,6 @@ module.exports = {
   },
 
   afterInstall: function() {
-    return this.addBowerPackageToProject('https://github.com/dasnixon/ember-pusher', 'use_ember_keys');
+    return this.addBowerPackageToProject('https://github.com/dasnixon/ember-pusher.git', 'use_ember_keys');
   }
 };
